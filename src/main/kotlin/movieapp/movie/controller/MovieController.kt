@@ -10,7 +10,7 @@ class MovieController {
 
     @GetMapping("/movies")
     fun getMovies(): String {
-        return """{"id":1}"""
+        return """[{"id":1,"title":"Avengers","year":2018,"genre":{"name":"Action","description":"Action"},"ratings":[],"cast":[]}]"""
     }
 
 }
